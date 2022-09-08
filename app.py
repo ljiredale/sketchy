@@ -3,7 +3,7 @@ import os
 from werkzeug.utils import secure_filename
 from flask import Flask,request,render_template
 
-UPLOAD_FOLDER = 'C:\Users\sharp\OneDrive\Desktop\sketch flask\sketchy\static\uploads'
+UPLOAD_FOLDER = r'C:\Users/bobca\OneDrive\Documents\GitHub\sketchy\static\uploads'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 app = Flask(__name__)
